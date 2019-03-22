@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="true">
+  <class name="BaseModel.FA_Items.BaseModel" dynamic-update="true">
+    <id name="ID">
+      <generator class="native"></generator>
+    </id>
+    <property name="BathNo" type="System.String" not-null="false" length="20"></property>
+    <property name="SalesOrderNo" type="System.String" not-null="false" length="20"></property>
+    <property name="ProduceOrderNo" type="System.String" not-null="false" length="20"></property>
+    <property name="Type" type="System.String" not-null="false" length="20"></property>
+    <property name="ClientName" type="System.String" not-null="false" length="10"></property>
+    <property name="ClientAddr" type="System.String" not-null="false" length="30"></property>
+    <property name="ProductNo" type="System.String" not-null="false" length="20"></property>
+    <property name="Code" type="System.String" not-null="false" length="20"></property>
+    <property name="No" type="System.String" not-null="false" length="20"></property>
+    <property name="MaterialsName" type="System.String" not-null="false" length="20"></property>
+    <property name="Lenght" type="System.Decimal" not-null="false"></property>
+    <property name="Width" type="System.Decimal" not-null="false"></property>
+    <property name="Height" type="System.Decimal" not-null="false"></property>
+    <property name="Quantity" type="System.Int32" not-null="false"></property>
+  </class>
+</hibernate-mapping>
