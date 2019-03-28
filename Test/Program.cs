@@ -47,6 +47,11 @@ namespace Test
                 Console.WriteLine(err);
                 Console.ReadLine();
             }
+            else
+            {
+                Console.WriteLine("FA_Item保存成功");
+                Console.ReadLine();
+            }
         }
         static System.Reflection.Assembly BaseModelass;
         static int BaseModelLoadState = 0;
