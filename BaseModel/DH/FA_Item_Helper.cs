@@ -9,7 +9,7 @@ namespace BaseModel
     public class FA_Item_Helper:NumberPropertyHelper
     {
         public FA_Item_Helper()
-            : base("Id","商品表", typeof(FA_Item),typeof(FA_Item))
+            : base("ID","商品表", typeof(FA_Item),typeof(FA_Item))
         {
 
         }
@@ -18,7 +18,7 @@ namespace BaseModel
         {
             get
             {
-                return new StringPropertyHelper("BathNo", "批次号", typeof(String), typeof(FA_Item)).SetParentHelper(this.ParentHelper);
+                return new StringPropertyHelper("BatchNo", "批次号", typeof(String), typeof(FA_Item)).SetParentHelper(this.ParentHelper);
             }
         }
 
@@ -92,7 +92,7 @@ namespace BaseModel
         {
             get
             {
-                return new StringPropertyHelper("MaterialName", "材料名", typeof(String), typeof(FA_Item)).SetParentHelper(this.ParentHelper);
+                return new StringPropertyHelper("MaterialsName", "材料名", typeof(String), typeof(FA_Item)).SetParentHelper(this.ParentHelper);
             }
         }
 

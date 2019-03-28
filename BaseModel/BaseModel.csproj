@@ -135,6 +135,7 @@
     <Content Include="Dlls\YoLib.dll" />
     <EmbeddedResource Include="HBM\FA_Item.hbm.xml">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Debug.NHibernate.cfg.xml" />
   </ItemGroup>

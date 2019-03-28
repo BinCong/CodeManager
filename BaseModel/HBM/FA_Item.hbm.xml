@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-lazy="true">
-  <class table="FA_Item" name="BaseModel.FA_Item.BaseModel" dynamic-update="true">
-    <id name="Id" type="System.Int64">
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class table="FA_Item" name="BaseModel.FA_Item,BaseModel" dynamic-update="true">
+    <id name="ID" type="System.Int64">
       <generator class="native"></generator>
     </id>
-    <property name="BathNo" type="System.String" not-null="false" length="20"></property>
+    <property name="BatchNo" type="System.String" not-null="false" length="20"></property>
     <property name="SalesOrderNo" type="System.String" not-null="false" length="20"></property>
     <property name="ProduceOrderNo" type="System.String" not-null="false" length="20"></property>
     <property name="Type" type="System.String" not-null="false" length="20"></property>
@@ -14,7 +14,7 @@
     <property name="Code" type="System.String" not-null="false" length="20"></property>
     <property name="No" type="System.String" not-null="false" length="20"></property>
     <property name="MaterialsName" type="System.String" not-null="false" length="20"></property>
-    <property name="Lenght" type="System.Decimal" not-null="false"></property>
+    <property name="Length" type="System.Decimal" not-null="false"></property>
     <property name="Width" type="System.Decimal" not-null="false"></property>
     <property name="Height" type="System.Decimal" not-null="false"></property>
     <property name="Quantity" type="System.Int32" not-null="false"></property>

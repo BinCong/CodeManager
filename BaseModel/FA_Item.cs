@@ -8,18 +8,18 @@ namespace BaseModel
 {
     public class FA_Item:FA_Base
     {
-        private string _BathNo;
+        private string _BatchNo;
 
-        public virtual string BathNo
+        public virtual string BatchNo
         {
             get
             {
-                return _BathNo;
+                return _BatchNo;
             }
 
             set
             {
-                _BathNo = value;
+                _BatchNo = value;
             }
         }
 
@@ -142,18 +142,18 @@ namespace BaseModel
             }
         }
 
-        private string _MaterialName;
+        private string _MaterialsName;
 
-        public virtual string MaterialName
+        public virtual string MaterialsName
         {
             get
             {
-                return _MaterialName;
+                return _MaterialsName;
             }
 
             set
             {
-                _MaterialName = value;
+                _MaterialsName = value;
             }
         }
 

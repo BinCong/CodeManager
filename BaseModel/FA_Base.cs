@@ -20,7 +20,7 @@ namespace BaseModel
         /// <summary>
         /// 标识
         /// </summary>
-        public long ID
+        public virtual long ID
         {
             get
             {
